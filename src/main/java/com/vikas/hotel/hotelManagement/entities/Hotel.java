@@ -16,7 +16,7 @@ public class Hotel {
     @Id
     @Column(name = "ID")
     @GeneratedValue(strategy = GenerationType.UUID)
-    private int id;
+    private String id;
 
     @Column(name = "NAME")
     private String name;
